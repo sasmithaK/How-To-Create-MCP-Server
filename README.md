@@ -19,6 +19,10 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
     git checkout -b feature/my-contribution
     ```
 4. **Make your changes** and commit them.
+```zsh
+    git add .
+    git commit -m"my-contribution"
+    ```
 5. **Push your branch** to your fork:
     ```zsh
     git push origin feature/my-contribution
