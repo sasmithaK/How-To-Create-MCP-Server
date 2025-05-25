@@ -38,8 +38,9 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
         
 6. **Open a Pull Request (PR)** from your branch to the `Submit` branch of this repository (not `main`).
 
-
+**Step 01**
 ![Add Tool in Copilot Chat](images/image4.png)
+**Step 02**
 ![Add Tool in Copilot Chat](images/image5.png)
 
 > **Note:** Please do **not** open PRs directly to the `main` branch. Always target the `Submit` branch for contributions.
