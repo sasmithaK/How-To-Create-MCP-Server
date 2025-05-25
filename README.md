@@ -9,11 +9,12 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 
 1. **Fork this repository** to your own GitHub account.
 2. **Clone your fork** to your local machine:
+
     ```zsh
-    git clone https://github.com/<your-username>/How-To-Create-MCP-Server
+    git clone https://github.com/$(git config --get github.user)/How-To-Create-MCP-Server
     cd How-To-Create-MCP-Server
     ```
-    > **Note:** Replace `<your-username>` with your actual GitHub username in the clone URL above.
+    > **Note:** The command above uses your configured GitHub username (from `git config --get github.user`). If you haven't set this, replace `$(git config --get github.user)` with your actual GitHub username.
 3. **Create a new branch** for your changes (for example, `feature/my-contribution`):
     ```zsh
     git checkout -b feature/my-contribution
@@ -215,6 +216,23 @@ For a more advanced example, you can explore the [Try-mcp-location-server-demo](
 For a deeper understanding of MCP and more hands-on examples, check out the [Introduction to MCP](https://github.com/nisalgunawardhana/introduction-to-mcp) repository. This resource provides tutorials, sample projects, and further guidance on working with MCP in .NET.
 
 ---
+
+## 💬 Join the Discussion!
+
+Have questions, ideas, or want to share your experience?  
+We welcome you to use [GitHub Discussions](https://github.com/nisalgunawardhana/How-To-create-MCP-Server/discussions) for:
+
+- Asking questions about setup or usage
+- Sharing feedback or suggestions
+- Requesting new features
+- Connecting with other contributors
+
+👉 **Click the "Discussions" tab at the top of this repo to start or join a conversation!**
+
+Let's build and learn together!
+
+---
+
 ## Connect with Me
 
 Follow me on social media for more sessions, tech tips, and giveaways:
