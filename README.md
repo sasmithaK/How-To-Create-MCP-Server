@@ -142,7 +142,7 @@ await app.RunAsync();
 [McpServerToolType]
 public static class HelloTool
 {
-    [McpServerTool(Name = "HelloTool"), Description("Say hello to Sri Lanka!")]
+    [McpServerTool(Name = "HelloTool"), Description("Say hello to Sri Lanka")]
     public static void SayHello()
     {
         Console.WriteLine("Hello Sri Lanka!");
@@ -163,9 +163,9 @@ public static class HelloTool
   cd ..
   ```
 
-    ```zsh
-    mkdir -p .vscode
-    ```
+  ```zsh
+  mkdir -p .vscode
+  ```
 
 2. Inside `.vscode`, create a file named `mcp.json` and add your server configuration.
 
@@ -181,7 +181,7 @@ public static class HelloTool
     - Enter the server name `"Hello-SriLankaServer"` and press Enter.  
       ![Enter Server Name](images/image9.png)
 
-    - The `mcp.json` file will be populated automatically. Replace its contents with the following:
+    - The `mcp.json` file will be populated automatically. Replace missing contents with the following:
 
       ```json
       {
@@ -198,7 +198,7 @@ public static class HelloTool
         }
       }
       ```
-      ```
+   
       > **Note:** `${workspaceFolder}` will automatically resolve to your project root. If it does not work, replace it with the actual path to your `.csproj` file (right-click the file in VS Code and select "Copy Path").
 
 ## 6. Run the MCP Server(test if it's work)
@@ -212,12 +212,14 @@ dotnet run
 
 ## 7. Add the Tool in Copilot Chat
 
+> **Note:** Before adding the tool in Copilot Chat, make sure your MCP server is running. Then, open the `mcp.json` file in VS Code. You will see a small **"Add Tool"** button appear just below the(2nd Line) `"servers": {` line in the JSON code—click this button to proceed.
+
 1. Open Copilot Chat in VS Code.
 2. Click the **gear icon** (⚙️) or the **"Add Tool"** button.
-3. Select your MCP server (`Hello-Server`) from the list.
+3. Select your MCP server (`Hello-SriLankaServe`) from the list.
 
 **Image Example:**
-> **Note:** The example images may display "LocationServer" or a similar name, but it actually refers to your MCP server (`HelloSriLankaServer`).
+> **Note:** The example images may display "LocationServer" or a similar name, but it actually refers to your MCP server (`Hello-SriLankaServer`).
 ![Add Tool in Copilot Chat](images/image1.png)
 ![Add Tool in Copilot Chat](images/image2.png)
 
@@ -226,11 +228,13 @@ dotnet run
 
 ## 8. Send a Message Using Copilot Chat
 
-1. In Copilot Chat, select the `HelloSriLankaServer` tool.
+1. In Copilot Chat, select the `Hello-SriLankaServer` tool.
 2. Type a message to invoke your tool, for example:
     ```
-    Can you Say hello from the tool
+    Can you Say hello to Sri Lank
     ```
+    > **Note:** You may need to grant permission or continue when prompted by VS Code. Sometimes, Copilot Chat or other AI tools do not have access to the terminal or workspace by default. If you see a prompt asking for access, make sure to allow it so your tool can run successfully.
+
 3. You should see a reply from your MCP server in the chat.
     ```
     Hello Sri Lanka !
