@@ -18,6 +18,10 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
     ```zsh
     git checkout -b feature/my-contribution
     ```
+
+    > <span style="background-color:#ffdddd; padding:2px 6px; border-radius:4px;">🛑 **Already completed steps 1–3?**</span>  
+    > If you've already forked, cloned, and created your branch, you can skip ahead to [🚀 Start Work Now](#-start-work-now) and continue with the rest of the setup!
+    
 4. **Make your changes** and commit them.
     ```zsh
     git add .
@@ -27,12 +31,26 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
     ```zsh
     git push origin feature/my-contribution
     ```
+    Once you've pushed your changes, go to your GitHub repository in your browser. Switch to the `feature/my-contribution` branch
+
+![Add Tool in Copilot Chat](images/image3.png)
+
+        
 6. **Open a Pull Request (PR)** from your branch to the `Submit` branch of this repository (not `main`).
+
+
+![Add Tool in Copilot Chat](images/image4.png)
+![Add Tool in Copilot Chat](images/image5.png)
 
 > **Note:** Please do **not** open PRs directly to the `main` branch. Always target the `Submit` branch for contributions.
 **Follow the steps below to set up and run the MCP server.**
 
+---
 
+## 🚀 Start Work Now
+
+Ready to dive in?  
+After cloning and setting up your branch, you can immediately begin making changes or adding features to the MCP server project. Use the provided steps below to guide your development process. If you get stuck, refer to the resources and discussion links at the end of this guide.
 
 ---
 
