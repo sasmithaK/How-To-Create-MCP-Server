@@ -9,7 +9,7 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 
 1. **Clone the repository from GitHub:**
    ```zsh
-   git clone https://github.com/nisalgunawardhana/How-To-create-MCP-Server
+   git clone https://github.com/nisalgunawardhana/How-To-Create-MCP-Server
    cd How-To-create-MCP-Server
    ```
 
