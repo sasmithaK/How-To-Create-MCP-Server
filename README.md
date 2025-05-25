@@ -84,7 +84,7 @@ cd HelloSriLankaServer
 Install the necessary NuGet packages:
 
 ```zsh
-dotnet add package ModelContextProtocol.Server --prerelease
+dotnet add package ModelContextProtocol --prerelease
 dotnet add package Microsoft.Extensions.Hosting --prerelease
 ```
 
@@ -158,26 +158,38 @@ public static class HelloTool
     mkdir -p .vscode
     ```
 
-2. Inside `.vscode`, create a file named `mcp.json` and add:
+2. Inside `.vscode`, create a file named `mcp.json` and add your server configuration.
 
-    ```json
-    {
-    "servers": {
-        "LocationServer": {
+    - Once created, you will see an **Add Server** button. Click it.  
+      ![Add Server Button](images/image6.png)
+
+    - Choose **"Command (stdio)"** as the server type.  
+      ![Choose Command (stdio)](images/image7.png)
+
+    - Enter `"dotnet"` as the command and press Enter.  
+      ![Enter dotnet](images/image8.png)
+
+    - Enter the server name `"HelloSriLankaServer"` and press Enter.  
+      ![Enter Server Name](images/image9.png)
+
+    - The `mcp.json` file will be populated automatically. Replace its contents with the following:
+
+      ```json
+      {
+        "servers": {
+          "HelloSriLankaServer": {
             "type": "stdio",
             "command": "dotnet",
             "args": [
-                "run",
-                "--project",
-                "${workspaceFolder}/HelloSriLankaServer.csproj"
+              "run",
+              "--project",
+              "${workspaceFolder}/HelloSriLankaServer.csproj"
             ]
+          }
         }
-    }
-    }
-    ```
-    > **Note:** ${workspaceFolder} automatically replace your correct path if not work replace the path with the actual path to your `.csproj` file (right-click the file in VS Code and select "Copy Path").
-
----
+      }
+      ```
+      > **Note:** `${workspaceFolder}` will automatically resolve to your project root. If it does not work, replace it with the actual path to your `.csproj` file (right-click the file in VS Code and select "Copy Path").
 
 ## 6. Run the MCP Server(test if it's work)
 
