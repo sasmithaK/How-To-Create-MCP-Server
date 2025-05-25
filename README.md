@@ -12,11 +12,9 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
    git clone https://github.com/nisalgunawardhana/How-To-create-MCP-Server
    cd How-To-create-MCP-Server
    ```
-   > Replace `<your-repo-url>` with your repository's URL and `<repo-folder>` with the cloned folder name.
 
-2. **Follow the steps below to set up and run the MCP server.**
+**Follow the steps below to set up and run the MCP server.**
 
----
 
 
 ---
@@ -49,9 +47,31 @@ cd HelloSriLankaServer
 
 Install the necessary NuGet packages:
 ```zsh
-dotnet add package ModelContextProtocol.Server
-dotnet add package Microsoft.Extensions.Hosting
+```zsh
+dotnet add package ModelContextProtocol.Server --prerelease
+dotnet add package Microsoft.Extensions.Hosting --prerelease
 ```
+```
+
+---
+## Project Folder Structure
+
+After creating the project, your folder structure should look like this:
+
+```
+How-To-create-MCP-Server/
+├── HelloSriLankaServer/
+│   ├── Program.cs
+│   ├── HelloSriLankaServer.csproj
+│   └── (other project files)
+├── images/
+│   ├── image1.png
+│   └── image2.png
+├── README.md
+└── LICENSE
+```
+
+This structure helps keep your source code, configuration, and documentation organized.
 
 ---
 
@@ -129,7 +149,7 @@ From the `HelloSriLankaServer` directory, start the server:
 ```zsh
 dotnet run
 ```
-
+> **Note:** Once you've confirmed the server is running successfully, you can stop it (press `Ctrl+C` in the terminal) and proceed to the next step (Step 7).
 ---
 
 ## 7. Add the Tool in Copilot Chat
@@ -138,7 +158,8 @@ dotnet run
 2. Click the **gear icon** (⚙️) or the **"Add Tool"** button.
 3. Select your MCP server (`Hello-Server`) from the list.
 
-**Image Example:(here show Location service but acutally show MCP :HelloSriLankaServer)**
+**Image Example:**
+> **Note:** The example images may display "LocationServer" or a similar name, but it actually refers to your MCP server (`HelloSriLankaServer`).
 ![Add Tool in Copilot Chat](images/image1.png)
 ![Add Tool in Copilot Chat](images/image2.png)
 
