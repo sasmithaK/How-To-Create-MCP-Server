@@ -7,12 +7,25 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 
 ## How to Clone This Repo and Start Working
 
-1. **Clone the repository from GitHub:**
-   ```zsh
-   git clone https://github.com/nisalgunawardhana/How-To-Create-MCP-Server
-   cd How-To-create-MCP-Server
-   ```
+1. **Fork this repository** to your own GitHub account.
+2. **Clone your fork** to your local machine:
+    ```zsh
+    git clone https://github.com/<your-username>/How-To-Create-MCP-Server
+    cd How-To-Create-MCP-Server
+    ```
+    > **Note:** Replace `<your-username>` with your actual GitHub username in the clone URL above.
+3. **Create a new branch** for your changes (for example, `feature/my-contribution`):
+    ```zsh
+    git checkout -b feature/my-contribution
+    ```
+4. **Make your changes** and commit them.
+5. **Push your branch** to your fork:
+    ```zsh
+    git push origin feature/my-contribution
+    ```
+6. **Open a Pull Request (PR)** from your branch to the `Submit` branch of this repository (not `main`).
 
+> **Note:** Please do **not** open PRs directly to the `main` branch. Always target the `Submit` branch for contributions.
 **Follow the steps below to set up and run the MCP server.**
 
 
