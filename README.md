@@ -1,4 +1,4 @@
-# How to Create an MCP Server Using .NET
+# How to Create MCP Server Using .NET
 
 This guide will help you set up a basic MCP (Model Context Protocol) server in .NET, configure it in VS Code, and interact with it using Copilot Chat.
 
@@ -46,19 +46,19 @@ cd HelloSriLankaServer
 ## 3. Install Required Packages
 
 Install the necessary NuGet packages:
-```zsh
+
 ```zsh
 dotnet add package ModelContextProtocol.Server --prerelease
 dotnet add package Microsoft.Extensions.Hosting --prerelease
 ```
-```
+
 
 ---
 ## Project Folder Structure
 
 After creating the project, your folder structure should look like this:
 
-```
+```text
 How-To-create-MCP-Server/
 ├── HelloSriLankaServer/
 │   ├── Program.cs
