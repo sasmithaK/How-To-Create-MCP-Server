@@ -19,7 +19,7 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
     git checkout -b feature/my-contribution
     ```
 4. **Make your changes** and commit them.
-```zsh
+    ```zsh
     git add .
     git commit -m"my-contribution"
     ```
