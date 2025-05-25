@@ -85,7 +85,7 @@ Install the necessary NuGet packages:
 
 ```zsh
 dotnet add package ModelContextProtocol --prerelease
-dotnet add package Microsoft.Extensions.Hosting --prerelease
+dotnet add package Microsoft.Extensions.Hosting 
 ```
 
 
@@ -165,6 +165,22 @@ public static class HelloTool
 
   ```zsh
   mkdir -p .vscode
+  ```
+
+  After creating the `.vscode` directory, your folder structure should look like this:
+
+  ```text
+  How-To-create-MCP-Server/
+  ├── HelloSriLankaServer/
+  │   ├── Program.cs
+  │   ├── HelloSriLankaServer.csproj
+  │   └── (other project files)
+  ├── images/
+  │   ├── image1.png
+  │   └── image2.png
+  ├── .vscode/
+  ├── README.md
+  └── LICENSE
   ```
 
 2. Inside `.vscode`, create a file named `mcp.json` and add your server configuration.
