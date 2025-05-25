@@ -155,13 +155,14 @@ public static class HelloTool
 
 ## 5. Configure MCP in VS Code
 
-Before creating the `.vscode` directory, navigate back to the project root if you're inside the `HelloSriLankaServer` folder:
-
-```zsh
-cd ..
-```
-
 1. In your project root, create a `.vscode` directory:
+
+  Before creating the `.vscode` directory, navigate back to the project root if you're inside the `HelloSriLankaServer` folder:
+
+  ```zsh
+  cd ..
+  ```
+
     ```zsh
     mkdir -p .vscode
     ```
