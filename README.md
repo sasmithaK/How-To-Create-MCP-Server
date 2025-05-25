@@ -9,8 +9,8 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 
 1. **Clone the repository from GitHub:**
    ```zsh
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone https://github.com/nisalgunawardhana/How-To-create-MCP-Server
+   cd How-To-create-MCP-Server
    ```
    > Replace `<your-repo-url>` with your repository's URL and `<repo-folder>` with the cloned folder name.
 
@@ -24,6 +24,9 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 ## 1. Install .NET
 
 Download and install the [.NET SDK](https://dotnet.microsoft.com/download) for your OS.
+> **Note:** This guide uses **.NET SDK 8**. Make sure you download the correct version for your operating system.
+
+If you're using **VS Code**, install the [C# Dev Kit extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) for the best development experience.
 
 Verify installation in your terminal:
 ```zsh
