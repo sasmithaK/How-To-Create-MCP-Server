@@ -9,12 +9,11 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 
 1. **Fork this repository** to your own GitHub account.
 2. **Clone your fork** to your local machine:
-
     ```zsh
-    git clone https://github.com/$(git config --get github.user)/How-To-Create-MCP-Server
+    git clone https://github.com/<your-username>/How-To-Create-MCP-Server
     cd How-To-Create-MCP-Server
     ```
-    > **Note:** The command above uses your configured GitHub username (from `git config --get github.user`). If you haven't set this, replace `$(git config --get github.user)` with your actual GitHub username.
+    > **Note:** Replace `<your-username>` with your actual GitHub username in the clone URL above.
 3. **Create a new branch** for your changes (for example, `feature/my-contribution`):
     ```zsh
     git checkout -b feature/my-contribution
