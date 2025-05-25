@@ -1,4 +1,11 @@
-# How to Clone This Repo and Start Working
+# How to Create an MCP Server Using .NET
+
+This guide will help you set up a basic MCP (Model Context Protocol) server in .NET, configure it in VS Code, and interact with it using Copilot Chat.
+
+[![Follow me on GitHub](https://img.shields.io/github/followers/nisalgunawardhana?label=Follow%20me%20on%20GitHub&style=social)](https://github.com/nisalgunawardhana)
+
+
+## How to Clone This Repo and Start Working
 
 1. **Clone the repository from GitHub:**
    ```zsh
@@ -11,9 +18,6 @@
 
 ---
 
-# How to Create an MCP Server Using .NET
-
-This guide will help you set up a basic MCP (Model Context Protocol) server in .NET, configure it in VS Code, and interact with it using Copilot Chat.
 
 ---
 
@@ -168,6 +172,19 @@ For a more advanced example, you can explore the [Try-mcp-location-server-demo](
 ## Additional Learning Resources
 
 For a deeper understanding of MCP and more hands-on examples, check out the [Introduction to MCP](https://github.com/nisalgunawardhana/introduction-to-mcp) repository. This resource provides tutorials, sample projects, and further guidance on working with MCP in .NET.
+
+---
+## Connect with Me
+
+Follow me on social media for more sessions, tech tips, and giveaways:
+
+- [LinkedIn](https://www.linkedin.com/in/nisalgunawardhana/) — Professional updates and networking
+- [Twitter (X)](https://x.com/thenisals) — Insights and announcements
+- [Instagram](https://www.instagram.com/thenisals) — Behind-the-scenes and daily tips
+- [GitHub](https://github.com/nisalgunawardhana) — Repositories and project updates
+- [YouTube](https://www.youtube.com/channel/UCNP5-zR4mN6zkiJ9pVCM-1w) — Video tutorials and sessions
+
+Feel free to connect and stay updated!
 
 ---
 
