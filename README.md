@@ -275,7 +275,7 @@ For a more advanced example, you can explore the [Try-mcp-location-server-demo](
 Love this project? Share it with your friends and community for a chance to win exclusive tech swag!
 
 - **How to participate:**  
-  Fill out [this form](#) to request your personalized share link. We'll send your unique link to your email within 2–3 business days.
+  Fill out [this form](https://forms.gle/eGxg1bAZgqwq6mPw7) to request your personalized share link. We'll send your unique link to your email within 2–3 business days.
 
 - **Share and Win:**  
   Once you receive your link, share it with your friends. Ask them to complete the project and include your referral link when they submit.
