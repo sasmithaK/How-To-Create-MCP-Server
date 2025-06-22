@@ -43,6 +43,18 @@ This guide will help you set up a basic MCP (Model Context Protocol) server in .
 **Step 02**
 ![Add Tool in Copilot Chat](images/image5.png)
 
+---
+
+## Pull Request Comment Guidelines
+
+When you create your Pull Request (PR), please add a comment including **your full name** and **email address**. This helps us track contributions and contact you if needed.
+
+**Example:**
+```
+Full Name: Nisal Gunawardhana
+Email: info@nisalgunawardhana.com
+```
+
 > **Note:** Please do **not** open PRs directly to the `main` branch. Always target the `Submit` branch for contributions.
 **Follow the steps below to set up and run the MCP server.**
 
